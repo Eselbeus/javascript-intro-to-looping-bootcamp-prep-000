@@ -25,6 +25,7 @@ function incrementVariable() {
 }
 
 function doWhileLoop(array){
+  let i = 0;
   do{
     array.pop();
     incrementVariable();
