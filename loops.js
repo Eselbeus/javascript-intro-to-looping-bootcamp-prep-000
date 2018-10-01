@@ -20,7 +20,7 @@ function whileLoop(n){
   return "done";
 }
 
-function incrementVariable() {
+function incrementVariable(i) {
   i = i + 1;
 }
 
@@ -28,7 +28,7 @@ function doWhileLoop(array){
   let i = 0;
   do{
     array.pop();
-    incrementVariable();
+    incrementVariable(i);
   } while (i < array.length-1);
   return array;
 }
