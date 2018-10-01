@@ -21,5 +21,5 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  
+  i = 0;
 }
